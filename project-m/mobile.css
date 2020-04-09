@@ -1,0 +1,315 @@
+html{
+  scroll-behavior: smooth;
+  width:100%;
+  overflow: scroll;
+
+}
+body{
+  margin: 0;
+  width:100%;
+  background-color:  #aedefc;
+
+}
+a:link {
+  color: black;
+}
+a{
+  text-decoration: none;
+}
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* **********************************************************
+***************All contents for navigation bar are here********
+****************************************************************    */
+
+
+
+#container{
+  position: absolute;
+
+}
+#nav-bar{
+  position: fixed;
+    padding: 1%;
+  right:0;
+  left:0;
+  padding-top: 0;
+  padding-bottom: 0;
+width:100%;
+  background-color: #fff9f2;
+  z-index: 9999;
+  box-shadow: 0 0 0 #EC4067;
+}
+  #nav-logo{
+    height:25%;
+    width:25%;
+    margin: 0 0 0 6%;
+    border-top-width:1%;
+    padding-top:5%;
+    padding-bottom : 5%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .nav-option{
+
+  display:none;
+  }
+
+
+
+  /* *****************/
+
+    .overlay {
+      height: 0%;
+      width: 100%;
+      position: fixed;
+      z-index: 50000;
+      top: 0;
+      left: 0;
+    opacity:97%;
+      background-color:  #fff3e6;
+  zoom:0%;
+      transition: 0.5s;
+      overflow-y: auto;
+    }
+
+    .overlay-content {
+      position: relative;
+  vertical-align: middle;
+  zoom:0%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30%;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+    .overlay .link-button {
+      padding-top: 10%;
+      text-decoration: none;
+      font-size: 2rem;
+      color: #331c00;
+      font-family: 'Ubuntu', sans-serif;
+      display: block;
+      transition: 01s;
+      zoom:0%;
+    }
+
+  .closebtn{
+    color: #331c00;
+    font-family: 'Ubuntu', sans-serif;
+      font-size: 5rem;
+      position: relative;
+    float:right;
+  right: 8%;
+  display: block;
+  zoom:0%;
+
+  }
+
+
+  /* *****************/
+
+
+  #nav-icon2 {
+    height: 7%;
+    width:10%;
+    position: absolute;
+    top:35%;
+    left:80%;
+  }
+
+  #nav-icon2 span {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 50%;
+    background: #ff944d;
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+  }
+
+  #nav-icon2 span:nth-child(even) {
+    left: 50%;
+    border-radius: 0 9px 9px 0;
+  }
+
+  #nav-icon2 span:nth-child(odd) {
+    left:0px;
+    border-radius: 9px 0 0 9px;
+  }
+
+  #nav-icon2 span:nth-child(1), #nav-icon2 span:nth-child(2) {
+    top: 0px;
+  }
+
+  #nav-icon2 span:nth-child(3), #nav-icon2 span:nth-child(4) {
+    top: 10px;
+  }
+
+  #nav-icon2 span:nth-child(5), #nav-icon2 span:nth-child(6) {
+    top: 20px;
+  }
+
+  #nav-icon2.open span:nth-child(1),#nav-icon2.open span:nth-child(6) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  #nav-icon2.open span:nth-child(2),#nav-icon2.open span:nth-child(5) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  #nav-icon2.open span:nth-child(1) {
+    left: 5px;
+    top: 7px;
+  }
+
+  #nav-icon2.open span:nth-child(2) {
+    left: calc(50% - 5px);
+    top: 7px;
+  }
+
+  #nav-icon2.open span:nth-child(3) {
+    left: -50%;
+    opacity: 0;
+  }
+
+  #nav-icon2.open span:nth-child(4) {
+    left: 100%;
+    opacity: 0;
+  }
+
+  #nav-icon2.open span:nth-child(5) {
+    left: 5px;
+    top: 29px;
+  }
+
+  #nav-icon2.open span:nth-child(6) {
+    left: calc(50% - 5px);
+    top: 29px;
+  }
+  /* *****************/
+
+
+/***************************************************************/
+
+
+
+/*  ***************************************************************
+*******************************Nav bar contents ends here**********
+*******************************************************************
+***********************Body part zero starts************************  */
+
+.home-content-three{
+  background-color: #aedefc;
+  padding-top:  100px;
+
+
+
+}
+
+#project-topic{
+font-size: 5rem;
+font-family: 'Kanit', sans-serif;
+padding-bottom: 30px;
+color:#1874c3;
+text-align: center;
+cursor: default;
+position: relative;
+left:10px;
+}
+
+
+
+
+
+
+
+/**************************************/
+.scroll {
+width:107.5%;
+margin-left: auto;
+margin-right: auto;
+    border-spacing: 0;
+
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0px -6px 10px .1px #9ac7e3, 0px 6px 10px .1px #9ac7e3 ;
+}
+
+.scroll tbody,
+.scroll thead { display: block; }
+
+.tr-spcl thead th {
+    height: 30px;
+    line-height: 50px;
+font-family: 'Fira Sans', sans-serif;
+}
+th{
+  font-family: 'Fira Sans', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.scroll tbody {
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+tbody {
+font-family: 'Sen', sans-serif;
+padding-top: 20px;
+padding-left: 10px;
+padding-left: 10px;
+ }
+ td{
+font-size: .75rem;
+padding-left: 10px;
+padding-right: 10px;
+ }
+ tr{
+   height:70px;
+ }
+ thead{
+   box-shadow: 0px .5px 10px .1px #cacbcc ;
+color:#006bcf;
+font-size: 1.25rem;
+
+ }
+
+/* **********************************/
+
+
+/* ***********************Body part two ends************************
+******************************************************************
+***********************Body part three starts************************
+******************************************************************* */
+
+/***********************************************************************/

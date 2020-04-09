@@ -1,0 +1,618 @@
+html{
+  scroll-behavior: smooth;
+width:100%;
+}
+
+/************************/
+
+#style-2::-webkit-scrollbar-track
+{
+background-color: #e6ddd3;
+
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 10px;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius:80px;
+
+ background-image: linear-gradient(to bottom , #ef7242, #80381b);
+
+}
+
+
+
+
+
+
+
+
+/*****************************************/
+
+body{
+  margin: 0;
+  width:100%;
+  background-color: #fff9f2;
+}
+a:link {
+  color: black;
+}
+a{
+  text-decoration: none;
+}
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* **********************************************************
+***************All contents for navigation bar are here********
+****************************************************************    */
+
+
+
+.floatingNav {
+  width:100%;
+    box-shadow: 0px .1px 10px .5px #232931;
+      transition-duration: .5s;
+      z-index: 999;
+}
+#container{
+  position: absolute;
+
+}
+#nav-bar{
+  position: fixed;
+    padding: 1%;
+  right:0;
+  left:0;
+  padding-top: 0;
+  padding-bottom: 0;
+width:100%;
+  background-color: #fff9f2;
+  z-index: 9999;
+
+}
+  #nav-logo{
+    height:7%;
+    width:7%;
+    margin: 0 0 0 6%;
+    border-top-width:1%;
+    padding-top:1.25%;
+    padding-bottom : 1.25%;
+  }
+
+.nav-option{
+  position:relative;
+float:right;
+  padding: 2% 0% 2% 0%;
+  margin-right: 6%;
+  cursor: pointer;
+}
+
+.font1{
+    font-family: 'Josefin Sans', sans-serif;
+padding-right: 25px;
+font-size: 1.2rem;
+}
+.font1:hover{
+  color:#ef7242;
+  cursor: pointer;
+  transition-duration: .5s;
+}
+
+/***************************************************************/
+.link-button{
+  display: none;
+}
+.hide-cross{
+display: none;
+
+}
+
+.dropdown{
+  position: relative;
+display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff9f2;
+  min-width: 155px;
+  box-shadow: 0px 8px 16px 0px #999;
+  z-index: 99999;
+}
+
+.dropdown-content .dropdown-option {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.option1:hover{
+  background-color:#ffead1;
+}
+.option2:hover{
+  background-color: #ffead1;
+}
+
+/*  ***************************************************************
+*******************************Nav bar contents ends here**********
+*******************************************************************
+***********************Body part zero starts************************  */
+
+.home-content-zero{
+  width:100%;
+}
+#greeting {
+  font-weight: 600;
+padding-top: 80px;
+padding-bottom: 20px;
+font-size: 3rem;
+color: #f9b282;
+font-family: 'Kalam', cursive;
+font-weight: lighter;
+text-align: center;
+cursor: default;
+
+}
+
+.about-breif{
+  font-size: 1rem;
+  font-family: 'Quicksand', sans-serif;
+margin-left: 30%;
+margin-right: 2%;
+cursor: default;
+}
+#about-content-zero{
+float:left;
+font-size: 2rem;
+margin-left: 120px;
+  line-height: 310px;
+font-family: 'Inter', sans-serif;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-image: linear-gradient(to right,#1f16d9 ,#d91650);
+cursor:  default;
+}
+#about-content-zero-m{
+  display: none;
+}
+.about-breif-m{
+  display: none;
+}
+
+
+/* ***********************Body part zero ends************************
+******************************************************************
+***********************Body part one starts************************
+******************************************************************* */
+
+
+.us-topic{
+color:#ffb15c;
+font-size: 6rem;
+font-family: 'Hind Madurai', sans-serif;
+cursor: default;
+
+
+}
+
+
+.home-content-one{
+padding-top: 50px;
+margin-top: 80px;
+padding-bottom: 100px;
+background-color: #222831;
+}
+.center-fix{
+    text-align:center;
+}
+#person1{
+  padding-top: 100px;
+  margin-bottom: 35px;
+}
+#person2{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+#person3{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+#person4{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.name{
+  font-family: 'Roboto Condensed', sans-serif;
+  color:#fafafa;
+  font-size: 3.5rem;
+  cursor: default;
+margin-top: 0;
+margin-bottom: 0;
+}
+hr{
+  border-style: none;
+border-top: dotted;
+border-color: #474a56;
+border-width: 7.5px;
+width: 5%;
+}
+.qualification{
+  color:#fafafa;
+  padding-top: 10px;
+  font-size: 1rem;
+  font-family: 'Maven Pro', sans-serif;
+  cursor: default;
+margin-top: 0;
+margin-bottom: 0;
+
+}
+
+.point-descriptions{
+  color:#fafafa;
+  padding-top: 10px;
+  font-size: 1rem;
+  font-family: 'Maven Pro', sans-serif;
+  cursor: default;
+  text-align: left;
+
+}
+
+
+
+
+.people-m{
+  display: none;
+}
+#people-comp{
+  display: block;
+}
+
+
+/*********************/
+.collapsible {
+cursor: pointer;
+padding-bottom: 5px;
+}
+
+.active, .collapsible:hover {
+
+}
+
+.collapsible:after {
+  content: '▼';
+  color: white;
+  font-weight: bold;
+
+  margin-left: 5px;
+  text-align: center;
+}
+
+.active:after {
+  content: "▲";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #384252;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 7.5px;
+cursor: default;
+
+}
+.people-content-table{
+  font-family: 'Maven Pro', sans-serif;
+    color:#fafafa;
+    margin-left: auto;
+    margin-right: auto;
+font-size: 1.5rem;
+}
+
+/* ***********************Body part one ends************************
+******************************************************************
+***********************Body part two starts************************
+******************************************************************* */
+
+.home-content-two{
+  background-color: #EC4067;
+text-align: center;
+  padding-top: 50px;
+padding-bottom: 50px;
+}
+
+
+.table-mobile{
+  display: none;
+}
+
+.expert-topic{
+  color:white;
+  font-size: 6rem;
+  font-family: 'Roboto Slab', serif;
+  cursor: default;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.table-expert-computer{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+
+}
+
+.expert-inner-topic{
+  font-family: 'Ubuntu', sans-serif;
+  color: #f8f9fc;
+  font-size: 2rem;
+cursor: default;
+}
+.shape-circle{
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  background-color: #e38198;
+  margin: auto;
+  box-shadow: 0px 10px 15px 5px  #bf3050;
+  margin-bottom: 50px;
+}
+.circle-inner-icon{
+  height:40px;
+  width: 40px;
+padding-top: 25%;
+
+}
+.hide-icon{
+  display: none;
+}
+.tempo-font{
+font-family: 'Raleway', sans-serif;
+font-size: 1.5rem;
+color: #f8f9fc;
+cursor: default;
+}
+td{
+  width:344px;
+}
+
+#more-button{
+  border-radius: 50px;
+  background-color: #e0bc09;
+  width: 15%;
+  box-shadow: 0 7px 15px 5px #bf3050;
+  margin-left: auto;
+margin-right: auto;
+font-family: 'Kanit', sans-serif;
+text-align: center;
+cursor: pointer;
+color : #967f09 ;
+display: block;
+}
+#more-button:hover{
+color: #665705;
+transition-duration: 1s;
+
+}
+#more-button-m{
+  display: none;
+}
+
+/* ***********************Body part two ends************************
+******************************************************************
+***********************Body part three starts************************
+******************************************************************* */
+.home-content-three{
+  background-color: #aedefc;
+  padding-top:  50px;
+padding-bottom: 50px;
+display: block;
+  text-align: center;
+}
+
+#project-topic{
+font-size: 6rem;
+font-family: 'Kanit', sans-serif;
+padding-bottom: 30px;
+color:#1874c3;
+cursor: default;
+}
+
+/**************************************/
+.scroll {
+width:85%;
+margin-left: auto;
+margin-right: auto;
+    border-spacing: 0;
+
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 6px 6px 10px .1px #9ac7e3, -6px 6px 10px .1px #9ac7e3 ;
+}
+
+.scroll tbody,
+.scroll thead { display: block; }
+
+.tr-spcl thead th {
+    height: 30px;
+    line-height: 50px;
+font-family: 'Fira Sans', sans-serif;
+}
+th{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.scroll tbody {
+    height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+tbody {
+font-family: 'Sen', sans-serif;
+padding-top: 30px;
+ }
+ td{
+
+ }
+ tr{
+   height:70px;
+ }
+ thead{
+   box-shadow: 0px .5px 10px .1px #cacbcc ;
+color:#006bcf;
+font-size: 1.25rem;
+
+ }
+
+/* **********************************/
+
+
+ #style-1::-webkit-scrollbar-track
+ {
+ background-color: #ebebeb;
+
+ }
+
+ #style-1::-webkit-scrollbar
+ {
+ 	width: 10px;
+ }
+
+ #style-1::-webkit-scrollbar-thumb
+ {
+ 	border-radius:80px;
+
+  background-image: linear-gradient(to bottom , #1c82d9, #0d4575);
+
+ }
+
+/* **********************************/
+
+
+
+/* ***********************Body part three ends************************
+******************************************************************
+***********************Body part four starts************************
+******************************************************************* */
+
+.home-content-four{
+  background-color: #36b5b0;
+  text-align: center;
+  padding-top:  50px;
+padding-bottom: 50px;
+}
+#contact-topic{
+  font-family: 'Noto Sans KR', sans-serif;
+  color:white;
+  font-size: 6rem;
+  font-weight: lighter;
+  margin-top: 0;
+  margin-bottom: 0;
+  cursor: default;
+}
+.font-2 {
+  font-family: 'PT Mono', monospace;
+font-size: 2rem;
+padding-left: 10px;
+vertical-align: middle;
+}
+
+
+#contact-table{
+  width:100%;
+}
+.contact-icon{
+  height:10%;
+  width:10%;
+  vertical-align: middle;
+}
+
+.whatsapp{
+
+  height:9%;
+  width:9%;
+  vertical-align: middle;
+}
+
+.contact-mail , .contact-whats , .contact-number , .contact-add {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50px;
+  color:#dee3e2;
+  cursor: pointer;
+}
+
+
+.contact-mail:hover{
+  box-shadow: 0 0 10px 3px #2c9692;
+  color: white;
+  background-color: #3ac2bc;
+
+}
+
+.contact-whats:hover{
+      box-shadow: 0 0 10px 3px #2c9692;
+          color: white;
+              background-color: #3ac2bc;
+}
+
+
+.contact-number:hover{
+  box-shadow: 0 0 10px 3px #2c9692;
+      color: white;
+          background-color: #3ac2bc;
+
+}
+
+
+
+.contact-add:hover{
+      box-shadow: 0 0 10px 3px #2c9692;
+          color: white;
+              background-color: #3ac2bc;
+}
+
+.content-bottom{
+  font-family: 'Space Mono', monospace;
+  color: #f1f3f4;
+  font-size: 1.2rem;
+}
+b{
+  cursor: default;
+}
+
+#mobile-contact-table{
+  display: none;
+}
+
+
+/***********************************************************************/
+
+#copyright{
+  font-family: 'Cutive Mono', monospace;
+    background-color: #36b5b0;
+  font-size:1rem;
+  text-align: center;
+  color: white;
+  cursor: default;
+}

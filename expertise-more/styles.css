@@ -1,0 +1,239 @@
+html{
+  scroll-behavior: smooth;
+width:100%;
+}
+
+
+
+body{
+  margin: 0;
+  width:100%;
+  background-color: #EC4067;
+}
+a:link {
+  color: black;
+}
+a{
+  text-decoration: none;
+}
+/* visited link */
+a:visited {
+  color: black;
+}
+
+
+
+/************************/
+
+#style-2::-webkit-scrollbar-track
+{
+background-color: #e6ddd3;
+
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 10px;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius:80px;
+
+ background-image: linear-gradient(to bottom , #ef7242, #80381b);
+
+}
+
+
+
+
+
+
+
+
+/*****************************************/
+
+/* **********************************************************
+***************All contents for navigation bar are here********
+****************************************************************    */
+
+
+
+
+#container{
+  position: absolute;
+
+}
+#nav-bar{
+  position: fixed;
+    padding: 1%;
+  right:0;
+  cursor: pointer;
+  left:0;
+  padding-top: 0;
+  padding-bottom: 0;
+width:100%;
+  background-color: #fff9f2;
+  z-index: 9999;
+  top:0;
+    box-shadow: 0px .1px 10px .5px #232931;
+}
+  #nav-logo{
+    height:7%;
+    width:7%;
+    margin: 0 0 0 6%;
+    border-top-width:1%;
+    padding-top:1.25%;
+    padding-bottom : 1.25%;
+  }
+
+.nav-option{
+  position:relative;
+float:right;
+  padding: 2% 0% 2% 0%;
+  margin-right: 6%;
+
+}
+
+.font1{
+    font-family: 'Josefin Sans', sans-serif;
+padding-right: 25px;
+font-size: 1.2rem;
+}
+.font1:hover{
+  color:#ef7242;
+  cursor: pointer;
+  transition-duration: .5s;
+}
+
+/***************************************************************/
+.link-button{
+  display: none;
+}
+.hide-cross{
+display: none;
+
+}
+
+.dropdown{
+  position: relative;
+display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff9f2;
+  min-width: 155px;
+  box-shadow: 0px 8px 16px 0px #999;
+  z-index: 99999;
+}
+
+.dropdown-content .dropdown-option {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.option1:hover{
+  background-color:#ffead1;
+}
+.option2:hover{
+  background-color: #ffead1;
+}
+
+
+/*  ***************************************************************
+*******************************Nav bar contents ends here**********
+*******************************************************************
+***********************Body part zero starts************************  */
+#main-content-m{
+  display: none;
+}
+#main-content{
+
+  padding-top: 10%;
+  padding-bottom: 5%;
+  margin-left: 30px;
+  margin-right:30px;
+}
+#topic1{
+font-family: 'Zilla Slab', serif;
+  font-size: 4rem;
+  color:#611a2a;
+margin-top: 35px;
+cursor: default;
+top:40px;position:relative;
+}
+ul{
+padding-top: 35px;
+
+font-size: 2rem;
+}
+
+li{
+  font-size: 2rem;
+  font-family: 'Source Sans Pro', sans-serif;
+    color:#ffd9e1;
+    cursor: default;
+}
+
+.inner-inner-li{
+  font-size: 1.5rem;
+      color:#4f2b33;
+      font-weight: 600;
+cursor: default;
+padding-bottom: 10px;
+    }
+
+
+.arrow{
+  height:3%;
+  width:3%;
+  padding: 8px 8px;
+  background-color: #b8304f;
+  border-radius: 100px;
+cursor: pointer;
+
+position:relative;
+left: 40%;
+margin-bottom:  2%;
+}
+.arrow:hover{
+  background-color: #ff6e8e;
+}
+.button-link-main-content{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#num-part{
+  background-color: #b8304f;
+  color:#f7d914;
+  font-size: 1.5rem;
+  padding: 8px 8px;
+font-family: 'Fredericka the Great', cursive;
+  border-radius: 10px;
+  cursor: default;
+  position: relative;
+left:40%;
+}
+/***********************************************************************/
+
+#copyright{
+  font-family: 'Cutive Mono', monospace;
+    background-color: #EC4067;
+  font-size:1rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+cursor: default;
+    left:42.5%;
+}

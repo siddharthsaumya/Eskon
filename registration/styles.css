@@ -1,0 +1,186 @@
+html{
+  scroll-behavior: smooth;
+width:100%;
+}
+
+
+
+body{
+  margin: 0;
+  width:100%;
+  background-color: #ffeceb;
+}
+a:link {
+  color: black;
+}
+a{
+  text-decoration: none;
+}
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* **********************************************************
+***************All contents for navigation bar are here********
+****************************************************************    */
+
+
+
+.floatingNav {
+  width:100%;
+    box-shadow: 0px .1px 10px .5px #232931;
+      transition-duration: .5s;
+      z-index: 999;
+
+}
+#container{
+  position: absolute;
+
+}
+#nav-bar{
+  position: fixed;
+    padding: 1%;
+  right:0;
+  left:0;
+  padding-top: 0;
+  padding-bottom: 0;
+width:100%;
+  background-color: #fff9f2;
+  z-index: 9999;
+}
+  #nav-logo{
+    height:7%;
+    width:7%;
+    margin: 0 0 0 6%;
+    border-top-width:1%;
+    padding-top:1.25%;
+    padding-bottom : 1.25%;
+  }
+
+.nav-option{
+  position:relative;
+float:right;
+  padding: 2% 0% 2% 0%;
+  margin-right: 6%;
+
+}
+
+.font1{
+    font-family: 'Josefin Sans', sans-serif;
+padding-right: 25px;
+font-size: 1.2rem;
+}
+.font1:hover{
+  color:#ef7242;
+  cursor: pointer;
+  transition-duration: .5s;
+}
+
+/************************/
+
+#style-2::-webkit-scrollbar-track
+{
+background-color: #e6ddd3;
+
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 10px;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius:80px;
+
+ background-image: linear-gradient(to bottom , #ef7242, #80381b);
+
+}
+
+
+
+
+
+
+
+
+/*****************************************/
+
+/***************************************************************/
+.link-button{
+  display: none;
+}
+.hide-cross{
+display: none;
+
+}
+
+.dropdown{
+  position: relative;
+display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff9f2;
+  min-width: 155px;
+  box-shadow: 0px 8px 16px 0px #999;
+  z-index: 99999;
+}
+
+.dropdown-content .dropdown-option {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.option1:hover{
+  background-color:#ffead1;
+}
+.option2:hover{
+  background-color: #ffead1;
+}
+
+
+/*  ***************************************************************
+*******************************Nav bar contents ends here**********
+*******************************************************************
+***********************Body part zero starts************************  */
+
+#reg-content{
+  padding-top: 10%;
+  text-align: center;
+}
+.topic-reg{
+  font-family: 'Arvo', serif;
+  font-size: 3.5rem;
+cursor: default;
+color: #fd5e53;
+
+
+}
+#aadhar{
+
+  margin-top: 100px;
+height:50%;
+width:50%;
+}
+
+table{
+  margin-left:auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  text-align: left;
+  font-family: 'Muli', sans-serif;
+  margin-bottom: 20px;
+  color: #7d160e;
+}
